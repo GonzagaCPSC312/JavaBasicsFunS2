@@ -114,6 +114,7 @@ public class Main {
         System.out.println("Favorite number: " + favNum);
         System.out.println("Enter your favorite place: ");
         String favPlace = kb.nextLine();
+        System.out.println("Favorite place: " + favPlace);
     }
 
     public static boolean hasSameLastCharacter(String first, String second) {
